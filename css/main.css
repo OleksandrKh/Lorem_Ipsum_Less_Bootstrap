@@ -1,0 +1,370 @@
+*::-webkit-input-placeholder {
+  color: #666;
+  opacity: 1;
+}
+*:-moz-placeholder {
+  color: #666;
+  opacity: 1;
+}
+*::-moz-placeholder {
+  color: #666;
+  opacity: 1;
+}
+*:-ms-input-placeholder {
+  color: #666;
+  opacity: 1;
+}
+html.js .loader {
+  background: none repeat scroll 0 0 #ffffff;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+html.js .loader_inner {
+  background-image: url("../img/preloader.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #fff;
+  height: 60px;
+  width: 60px;
+  margin-top: -30px;
+  margin-left: -30px;
+  left: 50%;
+  top: 50%;
+  position: absolute;
+}
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.6;
+  font-family: "RobotoRegular", sans-serif;
+  overflow-x: hidden;
+}
+.hidden {
+  display: none;
+}
+header,
+section,
+footer {
+  position: relative;
+}
+.header_mnu {
+  border-bottom: 1px solid #f1f1f1;
+  font-family: "NexaBold", sans-serif;
+  position: relative;
+  width: 100%;
+  z-index: 150;
+  animation-delay: .5s;
+  animation-duration: .5s;
+}
+.header_mnu ul,
+.header_mnu li {
+  list-style-type: none;
+}
+.header_mnu ul {
+  margin: 20px 0;
+  padding: 0;
+  text-align: center;
+}
+.header_mnu li {
+  display: inline-block;
+  padding-left: 45px;
+  text-transform: uppercase;
+}
+.header_mnu li:first-child {
+  padding-left: 0;
+}
+.header_mnu a {
+  color: #f1f1f1;
+  display: block;
+  letter-spacing: 2px;
+  text-decoration: none;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+.header_mnu a:hover {
+  color: #ff0000;
+  text-shadow: 0 0 10px #000000;
+}
+.section_h2 {
+  color: #bebebe;
+  font-family: "NexaLight", sans-serif;
+  font-size: 3.125em;
+  letter-spacing: 3px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.more {
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  position: relative;
+  text-align: center;
+  z-index: 150;
+}
+.more a {
+  display: inline-block;
+  font-family: "NexaBold", sans-serif;
+  text-decoration: none;
+}
+.more span,
+.more .fa {
+  color: #bebebe;
+  text-transform: uppercase;
+}
+.more span {
+  display: block;
+}
+.more .fa {
+  font-size: 35px;
+  font-smoothing: antialiased;
+  animation-name: fa-top-down;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes fa-top-down {
+  rom {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+  65% {
+    -webkit-transform: translate(0, 15px);
+    transform: translate(0, 15px);
+  }
+  to {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+}
+/* ------------------------------------
+---------------------------------------
+-----------------Header----------------
+---------------------------------------
+-------------------------------------*/
+.main_head {
+  min-height: 630px;
+  padding-bottom: 50px;
+}
+.main_color_bg {
+  background-color: #202020;
+}
+.logo_container {
+  position: relative;
+  z-index: 150;
+  animation-delay: 0.7s;
+  animation-duration: 1s;
+  text-align: center;
+  width: 100%;
+}
+.logo {
+  border: 10px solid rgba(255, 255, 255, 0.85);
+  border-radius: 50%;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5), inset 0 0 20px rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 0.85);
+  display: inline-block;
+  font-size: 220px;
+  line-height: 320px;
+  margin-top: 50px;
+  width: 350px;
+  height: 350px;
+  z-index: 300;
+}
+.logo + p {
+  color: #ffffff;
+  font-size: 40px;
+  margin: 0 0 10px;
+  text-transform: uppercase;
+}
+/* ------------------------------------
+---------------------------------------
+---------------About Me----------------
+---------------------------------------
+-------------------------------------*/
+.s_about {
+  text-align: center;
+}
+.s_about img {
+  border-radius: 5px;
+  height: auto;
+  width: 50%;
+}
+.about_me_mnu {
+  margin-bottom: 50px;
+}
+.about_me_mnu a {
+  color: #bebebe;
+}
+.colorbox_test {
+  display: block;
+  width: 100%;
+  height: 400px;
+  background-image: url(../img/photo.jpg);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.about_me h2 {
+  color: #202020;
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+.about_me p {
+  font-family: "OpenSans-Light", sans-serif;
+  font-size: 18px;
+}
+p.about_me_name {
+  font-family: "FeltTipWoman", sans-serif;
+  font-size: 1.875em;
+  text-transform: capitalize;
+}
+.about_me_more_btn {
+  color: #202020;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+.left,
+.right {
+  position: relative;
+  animation-duration: 1.2s;
+}
+/* ------------------------------------
+---------------------------------------
+---------------Portfolio---------------
+---------------------------------------
+-------------------------------------*/
+.s_portfolio {
+  background-color: #202020;
+  min-height: 630px;
+}
+.portfolio_mnu {
+  margin-bottom: 50px;
+}
+.portfolio_mnu a {
+  color: #bebebe;
+}
+.portfolio_items {
+  position: relative;
+  z-index: 150;
+}
+.portfolio_items .portfolio_item {
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
+.portfolio_items .portfolio_item img {
+  height: auto;
+  width: 100%;
+}
+.portfolio_h2 {
+  margin: 0 0 50px;
+  position: relative;
+  z-index: 150;
+}
+.portfolio_more_btn {
+  margin-bottom: 15px;
+  margin-top: 50px;
+}
+/* ------------------------------------
+---------------------------------------
+---------------Contacts----------------
+---------------------------------------
+-------------------------------------*/
+.contact_light {
+  font-family: "NexaLight", sans-serif;
+  font-size: 3.125em;
+}
+.contact_bold {
+  font-family: "NexaBold", sans-serif;
+  font-size: 1.250em;
+}
+.contact_info {
+  margin-top: 30px;
+  text-align: center;
+  animation-duration: 1.5s;
+}
+.contact_info li {
+  text-transform: uppercase;
+  list-style-type: none;
+}
+.contact_info li:nth-child(1) {
+  font-family: "NexaBold", sans-serif;
+  font-size: 1.250em;
+}
+.contact_info li:nth-child(2) {
+  font-family: "NexaLight", sans-serif;
+  font-size: 3.125em;
+  text-transform: lowercase;
+}
+.contact_info li:nth-child(3) {
+  font-family: "NexaBold", sans-serif;
+  font-size: 1.250em;
+}
+.contact_info li:nth-child(4) {
+  font-family: "NexaLight", sans-serif;
+  font-size: 3.125em;
+}
+.contact_info li:nth-child(5) {
+  font-family: "NexaBold", sans-serif;
+  font-size: 1.250em;
+}
+.contact_info a {
+  color: #202020;
+  text-decoration: none;
+}
+.social_icons {
+  margin: 15px 0 0;
+  padding: 0;
+}
+.social_icons li {
+  display: inline-block;
+}
+.social_icons li:nth-child(2) {
+  margin: 0 15px;
+}
+.social_icons a {
+  color: #000;
+  display: block;
+  text-decoration: none;
+}
+.social_icons .fa {
+  border-radius: 50%;
+  border: 1px solid #000;
+  display: block;
+  font-size: 20px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0;
+  padding: 0;
+  transition: color 0.3s ease, border-color 0.3s ease;
+  width: 40px;
+}
+.social_icons .fa:hover {
+  color: #ff0000;
+  border-color: #ff0000;
+}
+/* ------------------------------------
+---------------------------------------
+---------------Contacts----------------
+---------------------------------------
+-------------------------------------*/
+.main_footer {
+  color: #bebebe;
+  text-transform: uppercase;
+}
+.main_footer p {
+  font-family: "NexaLight", sans-serif;
+  font-size: 12px;
+  margin: 10px 0;
+  text-align: center;
+}
+.main_footer_border {
+  border-top: 1px solid #bebebe;
+  margin-top: 100px;
+}
